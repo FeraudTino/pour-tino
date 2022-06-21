@@ -18,7 +18,8 @@ class AppFixtures extends Fixture
             $personne = new Personne;
             $personne->setNom($faker->lastName);
             $personne->setPrenom($faker->firstName);
-
+            $dateTimeZone = new \DateTimeZone('Europe/Paris');
+            $personne->setDateEnregistrement(new \DateTime('now', $dateTimeZone));
             for ($c = 0; $c < mt_rand(1, 5); $c++) {
                 $adresse = new Adresse;
                 $adresse->setRue($faker->streetName);
