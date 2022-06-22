@@ -1,7 +1,4 @@
 {
-    "api-platform/api-pack": {
-        "version": "v1.3.0"
-    },
     "api-platform/core": {
         "version": "2.6",
         "recipe": {
@@ -260,9 +257,6 @@
             "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
         }
     },
-    "symfony/orm-pack": {
-        "version": "v2.2.0"
-    },
     "symfony/password-hasher": {
         "version": "v6.1.0"
     },
@@ -323,9 +317,6 @@
     },
     "symfony/serializer": {
         "version": "v6.1.1"
-    },
-    "symfony/serializer-pack": {
-        "version": "v1.1.0"
     },
     "symfony/service-contracts": {
         "version": "v3.1.0"
